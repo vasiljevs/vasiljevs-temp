@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 400%;
@@ -60,7 +64,7 @@ body, a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .container {
