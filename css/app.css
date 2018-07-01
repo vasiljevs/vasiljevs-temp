@@ -14,7 +14,7 @@ body {
   -webkit-animation: Gr 15s ease infinite;
   -moz-animation: Gr 15s ease infinite;
   animation: Gr 15s ease infinite;
-  font: 1.125rem/1.4 'Roboto', sans-serif;
+  font: 300 1.125rem/1.4 'Roboto', sans-serif;
   text-shadow: 0 .0625rem .125rem rgba(0,0,0,.5); 
 }
 
@@ -105,4 +105,14 @@ body, a {
 .social-link:hover {
   opacity: 1;
   transition: opacity 0.5s;
+}
+
+@media (max-width: 22.5em) {
+  .container {
+    padding: 0 1.875rem;
+  }
+
+  .person-name { 
+    letter-spacing: initial;
+  }
 }
