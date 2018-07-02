@@ -107,12 +107,8 @@ body, a {
   transition: opacity 0.5s;
 }
 
-@media (max-width: 22.5em) {
+@media (max-width: 24.0625em) {
   .container {
-    padding: 0 1.875rem;
-  }
-
-  .person-name { 
-    letter-spacing: initial;
+    max-width: 20.3125rem;
   }
 }
