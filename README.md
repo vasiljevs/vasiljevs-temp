@@ -1,9 +1,9 @@
-## vasiljevs.com temporary
+## [vasiljevs.com](https://vasiljevs.com) temporary
 
 ![Repository: vasiljevs-temp](IMAGE.jpg)
 
 ## Description
-A temporary web page of vasiljevs.com
+A temporary web page for [vasiljevs.com](https://vasiljevs.com)
 
 I decided to use minimalistic design approach in this project. New temporary web page looks very simple, clean and elegant.
 
