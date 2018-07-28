@@ -76,7 +76,7 @@ body, a {
   display: block;
   margin: 0 auto;
   max-width: 11.25rem;
-  border-radius: 100%;
+  border-radius: 50%;
   border: .25rem solid rgba(238,238,238,.5);
 }
 
