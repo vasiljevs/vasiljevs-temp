@@ -4,9 +4,12 @@
 }
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html, body {
@@ -16,9 +19,9 @@ html, body {
 body {
   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 400%;
-  -webkit-animation: Gr 15s ease infinite;
-  -moz-animation: Gr 15s ease infinite;
-  animation: Gr 15s ease infinite;
+  -webkit-animation: fadingGradient 15s ease infinite;
+  -moz-animation: fadingGradient 15s ease infinite;
+  animation: fadingGradient 15s ease infinite;
   font: 300 1.125rem/1.4 var(--fontRoboto);
   text-shadow: 0 .0625rem .125rem rgba(0,0,0,.5);
   display: flex;
@@ -26,7 +29,7 @@ body {
   align-items: center;
 }
 
-@-webkit-keyframes Gr {
+@-webkit-keyframes fadingGradient {
   0% { 
     background-position: 0% 50%;
   }
@@ -40,7 +43,7 @@ body {
   }
 }
 
-@-moz-keyframes Gr {
+@-moz-keyframes fadingGradient {
   0% {
     background-position: 0% 50%;
   }
@@ -54,7 +57,7 @@ body {
   }
 }
 
-@keyframes Gr {
+@keyframes fadingGradient {
   0% {
     background-position: 0% 50%;
   }
@@ -78,7 +81,7 @@ a {
 
 .container {
   max-width: 25rem;
-  padding: 0 .9375rem;
+  padding: 0 1rem;
 }
 
 .person__photo {
@@ -90,7 +93,7 @@ a {
 }
 
 .person__name {
-  margin: .9375rem 0;
+  margin: 1rem 0;
   font: 700 2.125rem/1 var(--fontRoboto);
   letter-spacing: .0625rem;
 }
@@ -101,7 +104,7 @@ a {
 }
 
 .about__contact {
-  margin: .9375rem 0 1.25rem;
+  margin: 1rem 0 1.25rem;
 }
 
 .social {
@@ -119,8 +122,30 @@ a {
   transition: opacity .5s;
 }
 
-@media (max-width: 24.0625em) {
+@media (max-width: 26.63em) {
   .container {
-    max-width: 20.3125rem;
+    max-width: 18.75rem;
+  }
+
+  .person__photo {
+    max-width: 10rem;
+  }
+
+  .person__name {
+    font-size: 1.75rem;
+    margin-bottom: .875rem;
+  }
+
+  .about {
+    font-size: 1rem;
+  }
+
+  .about__contact {
+    margin-top: .875rem;
+  }
+
+  .social__link {
+    font-size: 1rem;
+    margin: 0 .5rem;
   }
 }
