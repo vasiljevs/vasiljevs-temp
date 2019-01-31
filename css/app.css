@@ -95,7 +95,6 @@ a {
 .person__name {
   margin: 1rem 0;
   font: 700 2.125rem/1 var(--fontRoboto);
-  letter-spacing: .0625rem;
 }
 
 .person__name,
@@ -104,7 +103,7 @@ a {
 }
 
 .about__contact {
-  margin: 1rem 0 1.25rem;
+  margin: .75rem 0 1.25rem;
 }
 
 .social {
@@ -138,10 +137,6 @@ a {
 
   .about {
     font-size: 1rem;
-  }
-
-  .about__contact {
-    margin-top: .875rem;
   }
 
   .social__link {
